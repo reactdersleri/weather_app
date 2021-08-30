@@ -2,7 +2,8 @@ const HavaDurumu = (props) => {
   const { weather } = props;
 
   if (!weather) {
-    return <p>Lokasyon erisimine izin vermeniz gerekir...</p>;
+    return <p>
+You need to allow location access......</p>;
   }
 
   return (
